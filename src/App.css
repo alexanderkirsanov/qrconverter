@@ -1,0 +1,35 @@
+.mdl_layout {
+    align-items: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.mdl_layout > div {
+    width: auto;
+    height: auto;
+}
+.mdl_layout__content {
+    padding: 24px;
+    flex: none;
+}
+
+.page_login{
+    background: no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.react-qr{
+  max-height: 400px;
+}
+.react-qr-wrapper{
+   border: 1px solid red;
+   width: 400px;
+   height: 400px;
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+}
